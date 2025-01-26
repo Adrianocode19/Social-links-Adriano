@@ -1,0 +1,80 @@
+@import url("../../styles/variables.css");
+
+.card {
+  width: 70%;
+  max-width: 450px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.01);
+}
+
+.info {
+  height: 40%;
+  min-height: 200px;
+}
+
+.perfilImg {
+  border: 2px solid var(--primary-color);
+  background-image: url("../../assets/perfil.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.info {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info h1 {
+  color: var(--primary-color);
+  font-size: 26px;
+}
+
+.info h2 {
+  color: var(--primary-color);
+  font-size: 19px;
+}
+
+.containerLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  height: 60%;
+  transition: 1s;
+}
+
+.containerLink {
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: var(--link);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.containerLink:hover {
+  cursor: pointer;
+  background-color: var(--link-hover);
+  transform: scale(1.05);
+}
+
+.containerLink img {
+  height: 80%;
+  width: 15%;
+}

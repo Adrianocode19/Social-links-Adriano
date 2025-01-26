@@ -1,0 +1,61 @@
+@import url("../../styles/variables.css");
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+  position: fixed;
+}
+
+.containerDarkLight {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  width: 60px;
+  height: 20px;
+  right: 5%;
+  border: 3px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  transition: 1s;
+  transform: translateX(-10%);
+}
+
+.icon {
+  height: 70%;
+}
+
+.dark {
+  background-color: var(--primary-color);
+  transform: translateX(100%);
+}
+
+.darkTheme {
+  background-image: url("../../assets/backgroundDark.webp");
+  transition: 1s;
+}
+
+.darkThemeBtn {
+  background-color: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  transition: 1s;
+}

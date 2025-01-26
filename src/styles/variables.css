@@ -1,0 +1,6 @@
+:root {
+  --primary-color: #eff8ff;
+  --secondary-color: rgb(48, 48, 54);
+  --link: rgba(255, 255, 255, 0.235);
+  --link-hover: rgba(255, 255, 255, 0.077);
+}
