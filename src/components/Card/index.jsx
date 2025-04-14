@@ -14,18 +14,21 @@ const Card = () => {
         <a
           className={style.containerLink}
           href="https://github.com/Adrianocode19"
+          target="_blank"
         >
           <img src={gitHubLogo} alt="GitHub Logo" />
         </a>
         <a
           className={style.containerLink}
           href="https://mail.google.com/mail/u/0/#sent?compose=GTvVlcRzCpJKTcqJmgkLDdJBtNvdPDVVfRcPbCRtGZwjSwgRTvMdzNDbQhBSzKbppkHJdXshfThJG"
+          target="_blank"
         >
           <img src={gmailLogo} alt="Gmail Logo" />
         </a>
         <a
           className={style.containerLink}
           href="https://www.linkedin.com/in/adriano-carlos-texeira-ba4a40262/"
+          target="_blank"
         >
           <img src={linkedinLogo} alt="Linkedin Logo" />
         </a>
